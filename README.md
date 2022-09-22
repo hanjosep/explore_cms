@@ -17,3 +17,7 @@ In terminal, run
     ```bash download_cms_all.sh intx inty```
 where intx, inty is between [1,20] and intx<inty.
 
+Make sure you also unzip all of the files.
+    ```unzip ./cms_download/\*.zip ./cms_download/```
+should unzip all of the files that were downloaded using the download_cms file. 
+
