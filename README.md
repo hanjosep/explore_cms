@@ -12,9 +12,9 @@ The repo is currently going under restructuring.
 
 Here is the new structure:
 
-*data analysis/* -contains the Notebook file to run the analysis of the generated CSV files
-*data preparation/* -contains the Notebook file for generating CSVs for logistic regression training
-*datasets/* -contains the various folders:
+`data analysis/` -contains the Notebook file to run the analysis of the generated CSV files
+`data preparation/` -contains the Notebook file for generating CSVs for logistic regression training
+`datasets/` -contains the various folders:
 
 
 *data analysis/* -contains the Notebook files to run the analysis of the generated CSV files
