@@ -6,8 +6,22 @@ The work I did to create the training dataset is in analyze_harm.ipynb. It shoul
 Filtering down the opioid harm patients is in Data_Preparation.ipynb. Make sure the cms files are downloaded and unzipped. More info below.
 
 
+
 ## Important notes:
+The repo is currently going under restructuring. 
+
+Here is the new structure:
+
+*data analysis/* -contains the Notebook file to run the analysis of the generated CSV files
+*data preparation/* -contains the Notebook file for generating CSVs for logistic regression training
+*datasets/* -contains the various folders:
+
+
+*data analysis/* -contains the Notebook files to run the analysis of the generated CSV files
+*data analysis/* -contains the Notebook files to run the analysis of the generated CSV files
+
 Because of the large file sizes of the SYN_PUF datasets, the cms_downloads folder is on the *.gitignore*. Look below to view instructions on exploring the code on the Jupyter notebook.
+
 ## Before running Data Preparation notebook
 There are five different script files you can run. The download files are listed here: 
 
