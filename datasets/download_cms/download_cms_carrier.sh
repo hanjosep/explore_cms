@@ -16,7 +16,7 @@ for i in $(eval echo {$1..$2})
 # for i in {1..2}
 do
     # carrier claims 1
-    wget "http://downloads.cms.gov/files/DE1_0_2008_to_2010_Carrier_Claims_Sample_${i}A.zip" -P ./cms_download/
+    wget "http://downloads.cms.gov/files/DE1_0_2008_to_2010_Carrier_Claims_Sample_${i}A.zip" -P ./../cms_download/
     # carrier claims 2
-    wget "http://downloads.cms.gov/files/DE1_0_2008_to_2010_Carrier_Claims_Sample_${i}B.zip"  -P ./cms_download/
+    wget "http://downloads.cms.gov/files/DE1_0_2008_to_2010_Carrier_Claims_Sample_${i}B.zip"  -P ./../cms_download/
 done 

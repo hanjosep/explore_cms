@@ -17,5 +17,5 @@ for i in $(eval echo {$1..$2})
 do
     echo "downloading sample ${i}"
     # Prescription Drug events 
-    wget "http://downloads.cms.gov/files/DE1_0_2008_to_2010_Prescription_Drug_Events_Sample_${i}.zip" -P ./cms_download/
+    wget "http://downloads.cms.gov/files/DE1_0_2008_to_2010_Prescription_Drug_Events_Sample_${i}.zip" -P ./../cms_download/
 done 

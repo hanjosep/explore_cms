@@ -12,13 +12,16 @@ The repo is currently going under restructuring.
 
 Here is the new structure:
 
--`data analysis/` -contains the Notebook file to run the analysis of the generated CSV files
--`data preparation/` -contains the Notebook file for generating CSVs for logistic regression training
--`datasets/` -contains the various folders:
+- `data analysis/` contains the Notebook file to run the analysis of the generated CSV files
+- `data preparation/` contains the Notebook file for generating CSVs for logistic regression training
+- `datasets/` contains the various folders:
+    - `cms_download/` datasets from the original CMS website. Because of its large files, it must be downloaded locally using `download_cms` folder
+    - `cms_processed` first pass of opioid harm patients
+    - `cms_processed_full` recreated dataset of the opioid harm patients
+    - `cms_random` random sample of the CMS patients used for training
+    - `cms_test` random sample of the CMS patients used for testing
+    - `download_cms` .sh files used to download the original CMS dataset to `cms_download`
 
-
-*data analysis/* -contains the Notebook files to run the analysis of the generated CSV files
-*data analysis/* -contains the Notebook files to run the analysis of the generated CSV files
 
 Because of the large file sizes of the SYN_PUF datasets, the cms_downloads folder is on the *.gitignore*. Look below to view instructions on exploring the code on the Jupyter notebook.
 
