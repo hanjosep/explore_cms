@@ -10,7 +10,7 @@ Filtering down the opioid harm patients is in Data_Preparation.ipynb. Make sure 
 ## Important notes:
 The repo is currently going under restructuring. 
 
-Here is the new structure:
+Here is the structure as of 9/26/2022:
 
 - `data analysis/` contains the Notebook file to run the analysis of the generated CSV files
 - `data preparation/` contains the Notebook file for generating CSVs for logistic regression training
@@ -22,7 +22,7 @@ Here is the new structure:
     - `cms_test` random sample of the CMS patients used for testing
     - `download_cms` .sh files used to download the original CMS dataset to `cms_download`
 - `etc` some extra files used/generated in the past; kept in case they are needed again
-\\
+
 Because of the large file sizes of the SYN_PUF datasets, the cms_downloads folder is on the *.gitignore*. Look below to view instructions on exploring the code on the Jupyter notebook.
 
 ## Before running Data Preparation notebook
