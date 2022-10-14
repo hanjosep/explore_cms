@@ -11,5 +11,8 @@ We then generate a feedable array that contain features as well as its result. A
 
 - Logistic Regression
 - Random Forest
-- Adaboost
-- Stochastic Gradient Machine 
+- Extreme Gradient Boosting Machine (XGB)
+- Deep Neural Network
+
+The most current models are in `all_models.ipynb `
+
