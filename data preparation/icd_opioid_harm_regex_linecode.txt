@@ -1,0 +1,5 @@
+# code snippet for regex searching for ICD codes that are related to opioid-related harm 
+# commas are delimiters for the dataset that I have; if the dataset is not comma-delimited, this regex will need to be edited.
+
+grep -E ',96500,|,96501,|,96502,|,96509,|,E8500,|,E8501,|,E8502,|,E9350,|,E9351,|,E9352,|,3055,|,3040,|,3047,|,E9350,|,E9351,|,E9352,|,E9401,|,9701,'
+
