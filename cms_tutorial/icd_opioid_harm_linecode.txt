@@ -1,0 +1,3 @@
+# list of search terms for period-omitted ICD9 codes for opioid related harm 
+opioid_harm_icd_codes = ["96500","96501","96502","96509","E8500","E8501","E8502","E9350","E9351","E9352","3055","3040","3047","E9350","E9351","E9352","E9401","9701"]
+
